@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "springfox.documentation.swagger.v2.path",
+    "type": "java.lang.String",
+    "description": "A description for 'springfox.documentation.swagger.v2.path'"
+  },
+  {
+    "name": "server.datasource",
+    "type": "java.lang.String",
+    "description": "A description for 'server.datasource'"
+  },
+  {
+    "name": "DataBase",
+    "type": "java.lang.String",
+    "description": "A description for 'DataBase'"
+  }
+]}

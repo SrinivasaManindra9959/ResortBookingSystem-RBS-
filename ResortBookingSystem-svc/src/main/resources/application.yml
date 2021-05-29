@@ -1,0 +1,30 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /student_registration
+    
+    #enabling the H2 console  
+spring:   h2:     console:      enabled: true
+      path: /h2
+      
+   
+    
+datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password: 
+    driver-class-name: org.h2.Driver
+    
+    
+#springfox.documentation.swagger.v2.path: /rest/docs
+#spring: # jpa:    #hibernate:      #ddl-auto: create-drop
+      #database url : http://localhost:9090/student_registration/swagger-ui.html
+      
+      
+#### DATA BASE Connection Details ####
+
+dvc-db:
+  #driver-class-name: jdbc:oracle:thin:@localhost:1521:xe
+  #password: system
+  #userName: system
+  #url: jdbc:oracle:thin:@localhost:1521:xe
